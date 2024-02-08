@@ -3,7 +3,7 @@ package com.code.springelasticsearch.service;
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch.core.SearchResponse;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import com.code.springelasticsearch.Util.ESUtil;
+import com.code.springelasticsearch.util.ESUtil;
 import com.code.springelasticsearch.entity.Person;
 import com.code.springelasticsearch.repository.PersonRepository;
 import lombok.extern.slf4j.Slf4j;

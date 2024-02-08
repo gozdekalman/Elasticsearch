@@ -1,4 +1,4 @@
-package com.code.springelasticsearch.Util;
+package com.code.springelasticsearch.util;
 
 import co.elastic.clients.elasticsearch._types.query_dsl.MatchAllQuery;
 import co.elastic.clients.elasticsearch._types.query_dsl.Query;
