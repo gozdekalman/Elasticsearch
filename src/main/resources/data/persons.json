@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "name": "Awesome Widget",
+    "surname": "XYZ Corporation",
+    "address": "El"
+  },
+  {
+    "id": "2",
+    "name": "Super Gear",
+    "surname": "ABC Company",
+    "address": "App"
+  },
+  {
+    "id": "3",
+    "name": "Mega Gadget",
+    "surname": "XYZ Corporation",
+    "address": "Elec"
+  }]
