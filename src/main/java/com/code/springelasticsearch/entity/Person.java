@@ -22,9 +22,10 @@ public class Person {
     @Id
 
     private String id;
-    @Field(name = "name", type = FieldType.Text)
+
+    @Field(name = "name", type = FieldType.Text,analyzer = "custom_index",searchAnalyzer ="custom_search" )
     private  String name;
-    @Field(name = "surname", type = FieldType.Text)
+    @Field(name = "surname", type = FieldType.Text,analyzer = "custom_index",searchAnalyzer ="custom_search")
     private  String surname;
     @Field(name = "address", type = FieldType.Text)
     private String address;

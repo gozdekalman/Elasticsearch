@@ -14,4 +14,7 @@ public interface PersonRepository extends ElasticsearchRepository<Person,String>
 
     @Query("{\"bool\": {\"must\": [{\"match\": {\"ad\": \"?0\"}}]}}")
     List<Person> getCustomQuery(String search);
+
+    @Query("{\"bool\": {\"must\": [{\"match\": {\"name\": \"?0\"}}, {\"match\": {\"surname\": \"?1\"}}]}}")
+    List<Person> searchByNameAndSurname(String name, String surname);
 }
